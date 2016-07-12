@@ -23,5 +23,39 @@
 }
 
 /* Posititoning Classes */
+  h2.milk_text {
+    margin-top: 10px;
+  } 
 
+  section#featured-brands {
+    display: inline-block;
+    width: 66%;
+    float: left;
+    margin-bottom: 30px;
+  }
+
+  section#archives {
+    display: inline-block;
+    width: 31%;
+    margin-left: 3%;
+  } 
+
+  section.deal {
+    width: 31%;
+    display: inline-block;
+    float: left;
+    
+  }
+  section.deal + .deal {
+    margin-left: 3.5%;
+  }
+
+  .footer-col {
+    width: 31%;
+    display: inline-block;
+    float: left;
+  }
+
+  .footer-col + .footer-col {
+    margin-left: 3.5%;
 
