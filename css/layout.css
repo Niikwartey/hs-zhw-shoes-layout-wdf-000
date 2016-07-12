@@ -27,36 +27,36 @@
     margin-top: 10px;
   } 
 
-  section#featured-brands {
+  div#main .shadow {
     display: inline-block;
     width: 66%;
     float: left;
     margin-bottom: 30px;
   }
 
-  section#archives {
+  div#main .shadow + .shadow {
     display: inline-block;
     width: 31%;
     margin-left: 3%;
   } 
 
-  section.deal {
+  div#deals .shadow {
     width: 31%;
     display: inline-block;
     float: left;
     
   }
-  section.deal + .deal {
+  div#deals .shadow + .shadow {
     margin-left: 3.5%;
   }
 
-  .footer-col {
+  section#details .border_right {
     width: 31%;
     display: inline-block;
     float: left;
   }
 
-  .footer-col + .footer-col {
+  section#details .border_right + .border_right {
     margin-left: 3.5%;
   }
 
